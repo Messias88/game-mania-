@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Sahitya&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #DBDBDB;
+}
+
+
+header {
+    height: 150px;
+    background-color: #96BFD1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 352px;
+    margin: auto 0;
+
+}
+
+.logo img {
+    width: 340px;
+    height: 100px;
+    
+}
+
+.search {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.search input{
+    width: 800px;
+    height: 42px;
+    padding: 0;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.login a {
+    display: flex;
+    align-items: center;
+}
+
+.login img {
+    width: 65px;
+    height: 65px;
+}
+
+.login p {
+    font-size: 24px;
+}
+
+.carrinho a {
+    display: flex;
+    align-items: center;
+}
+
+.carrinho img {
+    width: 80px;
+    height: 65px;
+}
+
+.carrinho p {
+    font-family: 'Sahitya', serif;
+    font-size: 24px;
+}
+
+
+
+.container-grid {
+
+    margin: 0 auto;
+    width: 1840px;
+  
+}
+
+.posicionamento-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    height: 859px;
+}
+
+.imagemPrincipal {
+    margin: auto;
+    width: 920px;
+    text-align: center;
+}
+
+.imagemPrincipal img {
+    width: 775px;
+    height: 505px;
+    
+}
+
+.pPrincipal {
+    width: 920px;
+    margin: auto;
+}
+
+.pPrincipal p {
+    font-size: 24px;
+    font-family: 'Sahitya', serif;
+    padding: 10px;
+}
+
+.Produtos1{
+    height: 704px;
+    display: flex;
+}
+
+
+.produto1 {
+    width: 920px;
+    height: 732px;
+}
+
+.imagemproduto1 {
+    width: 920px;
+    height: 366px;
+    text-align: center;
+}
+.imagemproduto1 img {
+    width: 616px;
+    height: 328px;
+}
+
+.descricao1 {
+    width: 920px;
+    height: 342px;
+}
+
+.descricao1 p {
+    text-align: center;
+    font-size: 36px;
+    font-family:  'Sahitya', serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.produto2{
+    width: 920px;
+    height: 732px;
+}
+
+.imagemproduto2 {
+    width: 920px;
+    height: 366px;
+    text-align: center;
+}
+.imagemproduto2 img {
+    width: 616px;
+    height: 328px;
+}
+.descricao2 {
+   align-items: center;
+    width: 920px;
+    height: 342px;
+}
+
+.descricao2 p {
+    text-align: center;
+    font-size: 36px;
+    font-family:'Sahitya', serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.novidades {
+    display:flex;
+    height: 240px;
+    align-items: center;
+    background-color: royalblue;
+    justify-content: center;
+}
+
+.Novidades {
+    height: 180px;
+   align-items: center;
+    display: flex;
+   /* margin: auto 0; */
+}
+
+.Novidades h2 {
+   font-size: 60px;
+}
+
+.Produtos3 {
+    height: 816px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.produto3 {
+    width: 1920px;
+    height: 816px;
+}
+
+.imagemproduto3 {
+    width: 1920;
+    height: 1080px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemproduto3 img {
+    width: 100%;
+    height: 816px;
+}
+
+.Maisvendidos {
+    display: flex;
+    height: 240px;
+    align-items: center;
+    background-color: royalblue;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.vendidos {
+    height: 180px;
+   align-items: center;
+    display: flex;
+   /* margin: auto 0; */
+}
+
+.Maisvendidos h2 {
+    font-size: 60px;
+ }
+
+ .Produtos1{
+    height: 704px;
+    display: flex;
+}
+
+ .produto1 {
+    width: 603px;
+    height: 730px;
+    text-align: center;
+}
+
+.imagemproduto1 {
+    width: 556px;
+    height: 267px;
+    text-align: center;
+    margin-top: 30px;
+}
+.imagemproduto1 img {
+    width: 556px;
+    height: 267px;
+}
+
+.descricao1 {
+    width: 560px;
+    height: 193px;
+    margin-top: 5px;
+}
+
+.descricao1 p {
+    text-align: center;
+    font-size: 36px;
+    font-family:  'Sahitya', serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Produtos2{
+    height: 704px;
+    display: flex;
+}
+
+ .produto2 {
+    width: 603px;
+    height: 730px;
+    text-align: center;
+}
+
+.imagemproduto2 {
+    width: 417px;
+    height: 267px;
+    text-align: center;
+    margin-top: 30px;
+}
+.imagemproduto2 img {
+    width: 417px;
+    height: 267px;
+}
+
+.descricao2 {
+    width: 486px;
+    height: 311px;
+    margin-top: 5px;
+}
+
+.descricao2 p {
+    text-align: center;
+    font-size: 36px;
+    font-family:  'Sahitya', serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Produtos4{
+    height: 704px;
+    display: flex;
+}
+
+ .produto4 {
+    width: 691px;
+    height: 730px;
+    text-align: center;
+}
+
+.imagemproduto4 {
+    width: 606px;
+    height: 267px;
+    text-align: center;
+    margin-top: 30px;
+}
+.imagemproduto4 img {
+    width: 606px;
+    height: 267px;
+}
+
+.descricao4 {
+    width: 473px;
+    height: 340px;
+    margin-top: 5px;
+}
+
+.descricao4 p {
+    text-align: center;
+    font-size: 36px;
+    font-family:  'Sahitya', serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Produtos6{
+    display: flex;
+}
+
+ .produto6 {
+    width: 886px;
+    height: 1577px;
+    text-align: center;
+}
+
+.imagemproduto6 {
+    width: 739px;
+    height: 467px;
+    text-align: center;
+    margin-top: 30px;
+}
+.imagemproduto6 img {
+    width: 739px;
+    height: 467px;
+}
+
+.descricao6 {
+    width: 649px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.descricao6 p {
+    text-align: center;
+    font-size: 36px;
+    font-family:  'Sahitya', serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Produtos7{
+    display: flex;
+}
+
+ .produto7 {
+    width: 1002px;
+    height: 1577px;
+    text-align: center;
+}
+
+.imagemproduto7 {
+    width: 902px;
+    height: 994px;
+    text-align: center;
+    margin-top: 30px;
+}
+.imagemproduto7 img {
+    width: 902px;
+    height: 994px;
+}
+
+.descricao7 {
+    width: 688px;
+    height: 130px;
+    margin-top: 5px;
+}
+
+.descricao7 p {
+    text-align: center;
+    font-size: 36px;
+    font-family:  'Sahitya', serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.duvidas {
+background-color:#96BFD1;
+}
+
+.duvidas img{
+    width: 30px;
+    font-size: 36px;
+    font-family:  'Sahitya', serif;
+}
+
+.duvidas {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px;
+}
+
+.Informacao {
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+
+}
+
+.infor {
+    list-style: none;
+    font-size: 20px;    
+}
+
+.infor img {
+    height: 50px;
+    width: 50px;
+}
+
+.almenta h2 {
+    font-size: 80px;
+}
+
